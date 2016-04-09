@@ -9,7 +9,7 @@ email     development@arcticicestudio.com      +
 website   http://arcticicestudio.com           +
 copyright Copyright (C) 2016                   +
 created   2016-01-24 19:59 UTC+0100            +
-modified  2016-04-09 10:27 UTC+0200            +
+modified  2016-04-09 10:57 UTC+0200            +
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
 [Description]
@@ -64,5 +64,24 @@ public class NorthemLightTest {
     assertEquals(NorthemLight.hex(NorthemLight.ORANGE.get()), "#F19054");
     assertEquals(NorthemLight.hex(NorthemLight.LIME.get()), "#C5C961");
     assertEquals(NorthemLight.hex(NorthemLight.PURPLE.get()), "#BA8EC4");
+  }
+
+  @Test
+  public void shouldReturnTheCorrectRGBColorCode() {
+    assertEquals(NorthemLight.rgb(NorthemLight.DARK_GRAY.get()), "rgb(69, 69, 70)");
+    assertEquals(NorthemLight.rgb(NorthemLight.GRAY.get()), "rgb(109, 109, 111)");
+    assertEquals(NorthemLight.rgb(NorthemLight.LIGHT_GRAY.get()), "rgb(198, 198, 200)");
+    assertEquals(NorthemLight.rgb(NorthemLight.DARK_SNOW.get()), "rgb(242, 242, 247)");
+    assertEquals(NorthemLight.rgb(NorthemLight.DIRTY_SNOW.get()), "rgb(249, 249, 252)");
+    assertEquals(NorthemLight.rgb(NorthemLight.SNOW.get()), "rgb(255, 255, 255)");
+    assertEquals(NorthemLight.rgb(NorthemLight.AQUA.get()), "rgb(122, 202, 194)");
+    assertEquals(NorthemLight.rgb(NorthemLight.LIGHT_BLUE.get()), "rgb(111, 186, 208)");
+    assertEquals(NorthemLight.rgb(NorthemLight.BLUE.get()), "rgb(113, 167, 202)");
+    assertEquals(NorthemLight.rgb(NorthemLight.DARK_BLUE.get()), "rgb(87, 129, 179)");
+    assertEquals(NorthemLight.rgb(NorthemLight.RED.get()), "rgb(223, 92, 90)");
+    assertEquals(NorthemLight.rgb(NorthemLight.YELLOW.get()), "rgb(255, 197, 104)");
+    assertEquals(NorthemLight.rgb(NorthemLight.ORANGE.get()), "rgb(241, 144, 84)");
+    assertEquals(NorthemLight.rgb(NorthemLight.LIME.get()), "rgb(197, 201, 97)");
+    assertEquals(NorthemLight.rgb(NorthemLight.PURPLE.get()), "rgb(186, 142, 196)");
   }
 }
