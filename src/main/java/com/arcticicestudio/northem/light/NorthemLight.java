@@ -162,4 +162,23 @@ public enum NorthemLight {
   NorthemLight(final int RED, final int GREEN, final int BLUE) {
     COLOR = Color.rgb(RED, GREEN, BLUE);
   }
+
+  /**
+   * Converts the color to the {@code RGB} identifier.
+   *
+   * @param COLOR The color object
+   * @return a string representation of the {@code RGB} identifier
+   */
+  public static String rgb(final Color COLOR) {
+    String hex = COLOR_PREFIX.matcher(COLOR.toString()).replaceAll("");
+    String hexRed = hex.substring(0, 2).toUpperCase();
+    String hexGreen = hex.substring(2, 4).toUpperCase();
+    String hexBlue = hex.substring(4, 6).toUpperCase();
+
+    String intRed = Integer.toString(Integer.parseInt(hexRed, 16));
+    String intGreen = Integer.toString(Integer.parseInt(hexGreen, 16));
+    String intBlue = Integer.toString(Integer.parseInt(hexBlue, 16));
+
+    return String.join("", "rgb(", intRed, ", ", intGreen, ", ", intBlue, ")");
+  }
 }
