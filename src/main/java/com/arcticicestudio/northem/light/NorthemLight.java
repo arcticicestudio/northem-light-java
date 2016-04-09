@@ -32,6 +32,7 @@ Arctic Versioning Specification
 */
 package com.arcticicestudio.northem.light;
 
+import javafx.scene.paint.Color;
 import java.util.regex.Pattern;
 
 /**
@@ -150,4 +151,15 @@ public enum NorthemLight {
    * Contains the RGB color code.
    */
   private final Color COLOR;
+
+  /**
+   * Constructs a new color object.
+   *
+   * @param RED The value for the additive primary color {@code red}
+   * @param GREEN The value for the additive primary color {@code green}
+   * @param BLUE The value for the additive primary color {@code blue}
+   */
+  NorthemLight(final int RED, final int GREEN, final int BLUE) {
+    COLOR = Color.rgb(RED, GREEN, BLUE);
+  }
 }
