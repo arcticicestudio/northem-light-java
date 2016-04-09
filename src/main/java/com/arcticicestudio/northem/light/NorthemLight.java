@@ -32,6 +32,36 @@ Arctic Versioning Specification
 */
 package com.arcticicestudio.northem.light;
 
+/**
+ * <a href="https://github.com/arcticicestudio/northem-light">Northem Light</a> color palette
+  * as enumeration of the <a href="https://github.com/arcticicestudio/northem-light-java">Northem Light - Java</a> project.
+ * <div>
+ *   <table style="display:inline-block">
+ *     <thead>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(69,69,70);margin: 0"></th>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(109,109,111);margin: 0"></th>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(198,198,200);margin: 0"></th>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(242,242,247);margin: 0"></th>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(249,249,252);margin: 0"></th>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(255,255,255);margin: 0"></th>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(122,202,194);margin: 0"></th>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(111,186,208);margin: 0"></th>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(113,167,202);margin: 0"></th>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(87,129,179);margin: 0"></th>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(223,92,90);margin: 0"></th>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(255,197,104);margin: 0"></th>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(241,144,84);margin: 0"></th>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(197,201,97);margin: 0"></th>
+ *       <th style="border:none;width:25px;height:30px;background-color:rgb(186,142,196);margin: 0"></th>
+ *     </thead>
+ *   </table>
+ * </div>
+ *
+ * @author Arctic Ice Studio &lt;development@arcticicestudio.com&gt;
+ * @see <a href="https://github.com/arcticicestudio/northem-light">"Northem Light" GitHub Repository</a>
+ * @see <a href="https://github.com/arcticicestudio/northem-light-java">"Northem Light - Java" GitHub Repository</a>
+ * @since 0.1.0
+ */
 public enum NorthemLight {
   /**
    * The color {@code dark-gray} with an RGB value of {@code rgb(69,69,70)} and HEX value of {@code #454546}.
