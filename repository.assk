@@ -1,0 +1,3 @@
+build/{assembly,dist}
+{build,src}/{main,scratch,test}/{assets,java/com/arcticicestudio/northem/light,native,resources}
+lib/{main,scratch,test}/java/vendor
