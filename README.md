@@ -22,12 +22,12 @@ Java library of the north-bluish dark color palette [Northem Light](https://gith
 Visit the [official website](http://arcticicestudio.com/northem) (actually under construction) for more informations.
 
 ### Version
-[`-`](https://github.com/arcticicestudio/northem-light-java/releases/latest)
+[`0.1.0`](https://github.com/arcticicestudio/northem-light-java/releases/latest)
 
 For older versions check out the [GitHub Repository](https://github.com/arcticicestudio/northem-light-java/releases) or visit the [official website](http://arcticicestudio.com/northem) (actually under construction).
 
 ### Changelog
-[`-`](CHANGELOG.md)
+[`0.1.0`](CHANGELOG.md)
 
 ### Development
 #### Workflow
