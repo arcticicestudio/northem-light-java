@@ -145,4 +145,9 @@ public enum NorthemLight {
    * Compiled pattern to convert the RGB and HEX color values.
    */
   private static final Pattern COLOR_PREFIX = Pattern.compile("0x", Pattern.LITERAL);
+
+  /**
+   * Contains the RGB color code.
+   */
+  private final Color COLOR;
 }
