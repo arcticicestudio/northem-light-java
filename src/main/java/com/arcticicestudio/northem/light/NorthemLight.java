@@ -32,6 +32,8 @@ Arctic Versioning Specification
 */
 package com.arcticicestudio.northem.light;
 
+import java.util.regex.Pattern;
+
 /**
  * <a href="https://github.com/arcticicestudio/northem-light">Northem Light</a> color palette
   * as enumeration of the <a href="https://github.com/arcticicestudio/northem-light-java">Northem Light - Java</a> project.
@@ -138,4 +140,9 @@ public enum NorthemLight {
    * <div style="border:none;width:25px;height:30px;background-color:rgb(186,142,196);margin: 0"></div>
    */
   PURPLE(186,142,196);
+
+  /**
+   * Compiled pattern to convert the RGB and HEX color values.
+   */
+  private static final Pattern COLOR_PREFIX = Pattern.compile("0x", Pattern.LITERAL);
 }
