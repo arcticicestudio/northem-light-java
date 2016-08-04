@@ -3,7 +3,7 @@
 title     Package Info                    +
 project   northem-light-java              +
 file      NorthemLight.java               +
-version   0.1.0                           +
+version   0.2.0                           +
 author    Arctic Ice Studio               +
 email     development@arcticicestudio.com +
 website   http://arcticicestudio.com      +
@@ -44,6 +44,7 @@ Arctic Versioning Specification
  * @author Arctic Ice Studio &lt;development@arcticicestudio.com&gt;
  * @see <a href="https://github.com/arcticicestudio/northem-light-java">Northem Light - Java</a>
  * @see <a href="https://github.com/arcticicestudio/northem-light">Northem Light</a>
+ * @version 0.2.0
  * @since 0.1.0
  */
 package com.arcticicestudio.northem.light;
