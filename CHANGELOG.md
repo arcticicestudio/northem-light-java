@@ -1,5 +1,15 @@
-Northem Light - Java
-====================
+<img align="center" src="https://raw.githubusercontent.com/arcticicestudio/northem-light-java/develop/src/main/assets/media/northem-light-java-banner.png" alt="Northem Light Java"/> <a href="https://github.com/arcticicestudio/northem-light"><img align="right" src="https://raw.githubusercontent.com/arcticicestudio/northem-light-java/develop/src/main/assets/media/northem-logo.png"/></a>
+
+## 0.2.0 (2016-08-03) - Apache Maven Migration
+This version is mainly focused on a [Apache Maven](https://maven.apache.org) migration.
+Release and snapshot versions are now deployed to the [Central Repository](https://search.maven.org) via [OSS Sonatype](https://oss.sonatype.org).
+
+### Improvements
+#### Build Tool
+  - Migrated to [Apache Maven](https://maven.apache.org) based on the [`glacier-apache-maven@0.4.0`](https://github.com/arcticicestudio/glacier-apache-maven) project skeletons
+
+#### Documentation
+  - The `README` has been modernized and now includes a "Getting started" section
 
 ## 0.1.0 (2016-04-09)
 ### Features

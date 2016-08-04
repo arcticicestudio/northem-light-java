@@ -3,7 +3,7 @@
 title     NorthemLight                    +
 project   northem-light-java              +
 file      NorthemLight.java               +
-version   0.1.0                           +
+version   0.2.0                           +
 author    Arctic Ice Studio               +
 email     development@arcticicestudio.com +
 website   http://arcticicestudio.com      +

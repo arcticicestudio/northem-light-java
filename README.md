@@ -17,18 +17,18 @@ You can get it from the <img src="https://search.maven.org/favicon.ico" width=16
 <dependency>
   <groupId>com.arcticicestudio</groupId>
   <artifactId>northem-light-java</artifactId>
-  <version>0.1.0</version>
+  <version>0.2.0</version>
 </dependency>
 ```
 
 <img src="https://gradle.org/wp-content/uploads/fbrfg/favicon.ico" width=16 height=16/> <a href="https://gradle.org">Gradle</a>
 ```java
-compile(group: 'com.arcticicestudio', name: 'northem-light-java', version: '0.1.0')
+compile(group: 'com.arcticicestudio', name: 'northem-light-java', version: '0.2.0')
 ```
 
 <img src="http://apache.org/favicons/favicon.ico" width=16 height=16/> <a href="https://ant.apache.org/ivy">Apache Ivy</a>
 ```xml
-<dependency org="com.arcticicestudio" name="northem-light-java" rev="0.1.0" />
+<dependency org="com.arcticicestudio" name="northem-light-java" rev="0.2.0" />
 ```
 
 Development snapshots are available via [OSS Sonatype](https://oss.sonatype.org/content/repositories/snapshots/com/arcticicestudio/northem-light-java).   
@@ -62,7 +62,7 @@ A continuous integration build is running at [Travis-CI](https://travis-ci.org/a
 Visit the [official website](http://arcticicestudio.com/northem) for more information.
 
 ## Development
-[![Changelog](https://img.shields.io/badge/Changelog-v0.1.0-blue.svg)](https://github.com/arcticicestudio/northem-light-java/blob/v0.1.0/CHANGELOG.md)
+[![Changelog](https://img.shields.io/badge/Changelog-v0.2.0-blue.svg)](https://github.com/arcticicestudio/northem-light-java/blob/v0.2.0/CHANGELOG.md)
 
 ### Workflow
 This project follows the [gitflow](http://nvie.com/posts/a-successful-git-branching-model) branching model.
