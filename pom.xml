@@ -86,7 +86,7 @@ Glacier Apache Maven Project
       + Project Information                                                    [2] +
       +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +-->
   <name>northem-light-java</name>
-  <description>Java library implementation of the north-bluish dark color palette "Northem Dark". Optimized for syntax highlighting and UI projects. This is a darker and more blue-tinged variation.</description>
+  <description>Java library implementation of the north-bluish light color palette "Northem Light". Optimized for syntax highlighting and UI projects. This is a light and more color-intensive variation.</description>
   <url>https://github.com/arcticicestudio/northem-light-java</url>
   <inceptionYear>2016</inceptionYear>
   <organization>
